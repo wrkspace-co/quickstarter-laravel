@@ -49,9 +49,9 @@
                 </nav>
             @endif
         </header>
-        <div class="flex items-center justify-center w-full transition-opacity opacity-100 duration-750 lg:grow starting:opacity-0">
+        <div class="flex flex-col text-white font-thin items-center justify-center w-full transition-opacity opacity-100 duration-750 lg:grow starting:opacity-0">
             <main class="flex max-w-[335px] w-full flex-col-reverse lg:max-w-4xl lg:flex-row">
-                <div class="text-[13px] leading-[20px] flex-1 p-6 pb-12 lg:p-20 bg-white dark:bg-[#161615] dark:text-[#EDEDEC] shadow-[inset_0px_0px_0px_1px_rgba(26,26,0,0.16)] dark:shadow-[inset_0px_0px_0px_1px_#fffaed2d] rounded-bl-lg rounded-br-lg lg:rounded-tl-lg lg:rounded-br-none">
+                <div class="flex flex-col justify-center text-[13px] leading-[20px] flex-1 p-6 lg:p-16 bg-white dark:bg-[#161615] dark:text-[#EDEDEC] shadow-[inset_0px_0px_0px_1px_rgba(26,26,0,0.16)] dark:shadow-[inset_0px_0px_0px_1px_#fffaed2d] rounded-bl-lg rounded-br-lg lg:rounded-tl-lg lg:rounded-br-none">
                     <h1 class="mb-1 font-medium">Let's get started</h1>
                     <p class="mb-2 text-[#706f6c] dark:text-[#A1A09A]">Laravel has an incredibly rich ecosystem. <br>We suggest starting with the following.</p>
                     <ul class="flex flex-col mb-4 lg:mb-6">
@@ -112,13 +112,36 @@
                     </ul>
                     <ul class="flex gap-3 text-sm leading-normal">
                         <li>
-                            <a href="https://cloud.laravel.com" target="_blank" class="inline-block dark:bg-[#eeeeec] dark:border-[#eeeeec] dark:text-[#1C1C1A] dark:hover:bg-white dark:hover:border-white hover:bg-black hover:border-black px-5 py-1.5 bg-[#1b1b18] rounded-sm border border-black text-white text-sm leading-normal">
-                                Deploy now
+                            <a href="https://wrkspace.co" target="_blank" class="inline-block dark:bg-[#eeeeec] dark:border-[#eeeeec] dark:text-[#1C1C1A] dark:hover:bg-white dark:hover:border-white hover:bg-black hover:border-black px-5 py-1.5 bg-[#1b1b18] rounded-sm border border-black text-white text-sm leading-normal">
+                                Wrkspace Website
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/wrkspace-co/quickstarter-laravel" target="_blank" class="inline-block dark:bg-[#eeeeec] dark:border-[#eeeeec] dark:text-[#1C1C1A] dark:hover:bg-white dark:hover:border-white hover:bg-black hover:border-black px-5 py-1.5 bg-[#1b1b18] rounded-sm border border-black text-white text-sm leading-normal">
+                                Star Repository
                             </a>
                         </li>
                     </ul>
                 </div>
                 <div class="bg-[#fff2f2] dark:bg-[#1D0002] relative lg:-ml-px -mb-px lg:mb-0 rounded-t-lg lg:rounded-t-none lg:rounded-r-lg aspect-[335/376] lg:aspect-auto w-full lg:w-[438px] shrink-0 overflow-hidden">
+                    <svg class="w-[50px] mx-auto mt-3" viewBox="0 0 248.35 248.35">
+                        <path d="m200.45,47.91l-12.45-12.45c-5.85-5.72-11.64-7.8-17.36-5.79-.22.08-.42.21-.58.37l-68.31,68.31-23.75,33.7c8.55,4.98,14.76,11.13,21.06,17.23l101.38-101.38Z" style="fill: #fff; stroke-width: 0px;"/>
+                        <path d="m200.45,47.91l12.45,12.45c5.72,5.85,7.8,11.64,5.79,17.36-.08.22-.21.42-.37.58l-68.31,68.31-33.7,23.75c-4.98-8.55-11.13-14.76-17.23-21.06l101.38-101.38Z" style="fill: #f1f0f0; stroke-width: 0px;"/>
+                        <path d="m198.8,102.4l-13.91,13.91-5.51,120.4,2.78-2.78c.17-.17.29-.37.35-.6,4.97-18.27,11.89-76.25,18.59-129.81.16-1.28-1.39-2.04-2.3-1.12" style="fill: #f1f0f0; stroke-width: 0px;"/>
+                        <path d="m178.23,237.87l5.36-120.26-29.87,29.87,12.12,99.68c.14,1.12,1.5,1.59,2.3.79l10.09-10.09Z" style="fill: #fff; stroke-width: 0px;"/>
+                        <path d="m153.15,148.06l10.15,82.53-17.48-53.16c-.16-.5-.18-1.03-.05-1.54l7.38-27.83Z" style="fill: #f1f0f0; stroke-width: 0px;"/>
+                        <path d="m145.95,49.55l-13.91,13.91-120.4,5.51,2.78-2.78c.17-.17.37-.29.6-.35,18.27-4.97,76.25-11.89,129.81-18.59,1.28-.16,2.03,1.39,1.12,2.3" style="fill: #f1f0f0; stroke-width: 0px;"/>
+                        <path d="m10.49,70.12l120.26-5.36-29.87,29.87L1.19,82.51c-1.12-.14-1.59-1.5-.79-2.3l10.09-10.09Z" style="fill: #fff; stroke-width: 0px;"/>
+                        <path d="m100.3,95.21l-82.53-10.15,53.16,17.48c.5.16,1.03.18,1.54.05l27.83-7.38Z" style="fill: #f1f0f0; stroke-width: 0px;"/>
+                        <path d="m150.21,148.39l-32.98,23.02c2.91,5.89-2.47,17.54-4.67,30.47-.22,1.31,1.4,2.12,2.32,1.16l27.66-29.03c.3-.32.52-.7.64-1.12l7.03-24.5Z" style="fill: #fff; stroke-width: 0px;"/>
+                        <path d="m100.12,98.3l-23.02,32.98c-5.89-2.91-17.54,2.47-30.47,4.67-1.31.22-2.12-1.4-1.16-2.32l29.02-27.66c.32-.3.7-.52,1.12-.64l24.5-7.03Z" style="fill: #fff; stroke-width: 0px;"/>
+                        <path d="m97.74,150.61c-6.83-6.96-14-13.31-21.09-16.63-29.66,38.43-57.66,75.64-47.5,85.23l68.6-68.6Z" style="fill: #fff; stroke-width: 0px;"/>
+                        <path d="m97.74,150.61c6.96,6.83,13.31,14,16.63,21.09-38.43,29.67-75.64,57.66-85.23,47.5l68.6-68.6Z" style="fill: #f1f0f0; stroke-width: 0px;"/>
+                        <path d="m248.04,1.56c-.03-.33-.17-.63-.39-.85l-43.52,43.52c8.49,8.44,14.99,15.73,19.56,22.61.47.71,1.48.81,2.08.21,11.55-11.6,24.81-33.87,22.27-65.48" style="fill: #f1f0f0; stroke-width: 0px;"/>
+                        <path d="m246.79.32c.33.03.63.17.85.39l-43.52,43.52c-8.44-8.49-15.73-14.99-22.61-19.56-.71-.47-.81-1.48-.21-2.08C192.92,11.03,215.18-2.23,246.79.32" style="fill: #fff; stroke-width: 0px;"/>
+                        <path d="m45.33,135.43c.26.35.68.58,1.19.53l.4-.06c12.81-2.23,24.34-7.51,30.18-4.62l19.04-27.27-50.8,31.42Z" style="fill: #f1f0f0; stroke-width: 0px;"/>
+                        <path d="m113.14,203.24c-.35-.26-.58-.68-.53-1.19l.06-.4c2.23-12.81,7.51-24.34,4.62-30.18l27.27-19.04-31.42,50.8Z" style="fill: #f1f0f0; stroke-width: 0px;"/>
+                    </svg>
                     {{-- Laravel Logo --}}
                     <svg class="w-full text-[#F53003] dark:text-[#F61500] transition-all translate-y-0 opacity-100 max-w-none duration-750 starting:opacity-0 starting:translate-y-6" viewBox="0 0 438 104" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M17.2036 -3H0V102.197H49.5189V86.7187H17.2036V-3Z" fill="currentColor" />
@@ -268,6 +291,9 @@
                     <div class="absolute inset-0 rounded-t-lg lg:rounded-t-none lg:rounded-r-lg shadow-[inset_0px_0px_0px_1px_rgba(26,26,0,0.16)] dark:shadow-[inset_0px_0px_0px_1px_#fffaed2d]"></div>
                 </div>
             </main>
+            <footer class="py-4 text-center text-sm opacity-75">
+                License: MIT - Backed by Wrkspace - Version 1.0.0
+            </footer>
         </div>
 
         @if (Route::has('login'))
